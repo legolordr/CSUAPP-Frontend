@@ -1,4 +1,4 @@
-# CSUAPP
+# CSUAPP-Frontend
 **Пробничек репозитория**  
 Created with https://www.readmecodegen.com  
 ```
