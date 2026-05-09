@@ -1,5 +1,6 @@
 # CSUAPP
 Пробничек репозитория
+Created with https://www.readmecodegen.com
 ```
 📁 CSUAPP/
 ├── 📁 public/
