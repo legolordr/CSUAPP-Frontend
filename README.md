@@ -14,73 +14,75 @@
 - **`src/shared`** - переиспользуемый код, который ничего не знает о бизнес логике. Базовая UI - система, базовый http клиент, общие сторы, общие TS типы и тп.
 
 Created with https://www.readmecodegen.com  
-```
-📁 CSUAPP/
-├── 📁 public/
-├── 📁 src/
-│   ├── 📁 app/
-│   │   ├── 📁 routers/
-│   │   ├── 📁 stores/
-│   │   ├── 🟦 index.ts
-│   │   ├── 📄 App.svelte
-│   │   └── 🎨 App.css
-│   ├── 📁 features/
-│   │   ├── 📁 food/
-│   │   │   ├── 📁 components/
-│   │   │   ├── 📁 services/
-│   │   │   ├── 📁 api/
-│   │   │   └── 🟦 index.ts
-│   │   ├── 📁 navigation/
-│   │   │   ├── 📁 Threlte/
-│   │   │   ├── 📁 components/
-│   │   │   ├── 📁 services/
-│   │   │   ├── 📁 api/
-│   │   │   └── 🟦 index.ts
-│   │   ├── 📁 searchTeacher/
-│   │   │   ├── 📁 components/
-│   │   │   ├── 📁 services/
-│   │   │   ├── 📁 api/
-│   │   │   └── 🟦 index.ts
-│   │   ├── 📁 schedule/
-│   │   │   ├── 📁 components/
-│   │   │   ├── 📁 services/
-│   │   │   ├── 📁 api/
-│   │   │   └── 🟦 index.ts
-│   │   ├── 📁 admin/
-│   │   │   ├── 📁 components/
-│   │   │   ├── 📁 services/
-│   │   │   ├── 📁 api/
-│   │   │   └── 🟦 index.ts
-│   │   ├── 📁 auth/
-│   │   │   ├── 📁 components/
-│   │   │   ├── 📁 services/
-│   │   │   ├── 📁 api/
-│   │   │   └── 🟦 index.ts
-│   │   └── 📁 profile/
-│   │       ├── 📁 components/
-│   │       ├── 📁 services/
-│   │       ├── 📁 api/
-│   │       └── 🟦 index.ts
-│   ├── 📁 pages/
-│   │   ├── 📁 admin/
-│   │   ├── 📁 food/
-│   │   ├── 📁 home/
-│   │   ├── 📁 im/
-│   │   ├── 📁 login/
-│   │   ├── 📁 navigation/
-│   │   ├── 📁 profile/
-│   │   ├── 📁 register/
-│   │   ├── 📁 schedule/
-│   │   └── 📁 search-teacher/
-│   └── 📁 shared/
-│       ├── 📁 api/
-│       ├── 📁 config/
-│       ├── 📁 lib/
-│       ├── 📁 stores/
-│       ├── 📁 types/
-│       ├── 📁 ui/
-│       └── 📁 ws/
-├── 📄 .gitignore
-└── 📄 README.md
 
+```
+CSUAPP-Frontend/
+    ├── 📁 public/
+    ├── 📁 src/
+    │   ├── 📁 app/
+    │   │   ├── 📁 routers/
+    │   │   │   ├── 📁 guards/
+    │   │   ├── 📁 stores/
+    │   │   ├── 📁 layouts/
+    │   │   ├── 🟦 index.ts
+    │   │   ├── App.svelte
+    │   │   ├── App.css
+    │   ├── 📁 features/
+    │   │   ├── 📁 admin/
+    │   │   │   ├── 📁 api/
+    │   │   │   ├── 📁 components/
+    │   │   │   ├── 📁 services/
+    │   │   │   ├── 🟦 index.ts
+    │   │   ├── 📁 auth/
+    │   │   │   ├── 📁 api/
+    │   │   │   ├── 📁 components/
+    │   │   │   ├── 📁 services/
+    │   │   │   ├── 🟦 index.ts
+    │   │   ├── 📁 food/
+    │   │   │   ├── 📁 api/
+    │   │   │   ├── 📁 components/
+    │   │   │   ├── 📁 services/
+    │   │   │   ├── 🟦 index.ts
+    │   │   ├── 📁 navigation/
+    │   │   │   ├── 📁 api/
+    │   │   │   ├── 📁 components/
+    │   │   │   ├── 📁 services/
+    │   │   │   ├── 📁 Threlte/
+    │   │   │   ├── 🟦 index.ts
+    │   │   ├── 📁 profile/
+    │   │   │   ├── 📁 api/
+    │   │   │   ├── 📁 components/
+    │   │   │   ├── 📁 services/
+    │   │   │   ├── 🟦 index.ts
+    │   │   ├── 📁 schedule/
+    │   │   │   ├── 📁 api/
+    │   │   │   ├── 📁 components/
+    │   │   │   ├── 📁 services/
+    │   │   │   ├── 🟦 index.ts
+    │   │   ├── 📁 searchTeacher/
+    │   │   │   ├── 📁 api/
+    │   │   │   ├── 📁 components/
+    │   │   │   ├── 📁 services/
+    │   │   │   └── 🟦 index.ts
+    │   ├── 📁 pages/
+    │   │   ├── 📁 admin/
+    │   │   ├── 📁 food/
+    │   │   ├── 📁 home/
+    │   │   ├── 📁 im/
+    │   │   ├── 📁 login/
+    │   │   ├── 📁 navigation/
+    │   │   ├── 📁 profile/
+    │   │   ├── 📁 register/
+    │   │   ├── 📁 schedule/
+    │   │   ├── 📁 search-teacher/
+    │   └── 📁 shared/
+    │       ├── 📁 api/
+    │       ├── 📁 config/
+    │       ├── 📁 lib/
+    │       ├── 📁 stores/
+    │       ├── 📁 types/
+    │       ├── 📁 ui/
+    │       └── 📁 ws/
+    ├── 📄 .gitignore
+    └── 📄 README.md
 ```
